@@ -16,7 +16,7 @@ namespace JenkinsIntegrationTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your Application description page.";
+            ViewBag.Message = "Your Applications description page.";
 
             return View();
         }
