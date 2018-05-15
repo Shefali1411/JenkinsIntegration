@@ -10,7 +10,7 @@ namespace JenkinsIntegrationTest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Data = "ABCDEFGHIJKLM";
+            ViewBag.Data = "ABCD";
             return View("Index");
         }
 
